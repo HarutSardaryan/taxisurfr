@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-sm-12 col-sm-offset-0">
+
+        <div id="form-container">
+
+            <div class="page-header text-center">
+                <!--<h2>taxisurfr</h2>-->
+
+                <!-- the links to our nested states using relative paths -->
+                <!-- add the active class if the state matches our ui-sref -->
+                <div ng-hide="bookingPaid" id="status-buttons" class="text-center">
+                    <a ng-show="active1" ui-sref-active="active" ui-sref=".transport"><span>1</span>Route</a>
+                    <a ng-show="active2" ui-sref-active="active" ui-sref=".details"><span>2</span> Details</a>
+                    <a ng-show="active3" ui-sref-active="active" ui-sref=".summary"><span>3</span> Summary</a>
+                    <a ng-show="active4" ui-sref-active="active" ui-sref=".payment"><span>4</span> Payment</a>
+                </div>
+                <div ng-show="bookingPaid" id="status-buttons_paid" class="text-center">
+                    <a ui-sref-active="active" ui-sref=".confirmation"><span></span>
+                        Confirmation</a>
+                </div>
+            </div>
+
+            <!-- use ng-submit to catch the form submission and use our Angular function -->
+            <!--<form id="signup-form" ng-submit="processForm()">-->
+            <!--<form id="signup-form" name="taxisurfr-form" stripe-form="processForm" novalidate>-->
+            <div>
+                <!-- our nested state views will be injected here -->
+                <div id="form-views" ui-view></div>
+            </div>
+
+        </div>
+
+        <!-- show our formData as it is being typed -->
+  <!--<pre>bookingPaid=-->
+    <!--{{ bookingPaid }}-->
+      <!--</pre>-->
+
+    </div>
+</div>
+

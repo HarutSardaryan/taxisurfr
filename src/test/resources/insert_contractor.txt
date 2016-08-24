@@ -1,0 +1,17 @@
+delete from contractor;
+delete from agent;
+
+insert into Agent (id,admin) VALUES (5647648723828736,false);
+
+
+insert into Contractor ( id, address1, address2, address3, address4, agentid, name) VALUES(4700102971097088,'Colombo','','','',5647648723828736,'Nano Cabs');
+insert into Contractor ( id, address1, address2, address3, address4, agentid, name) VALUES(4699290953842688,'Tangalle','','','', 5647648723828736,'Rana Travels');
+insert into Contractor ( id, address1, address2, address3, address4, agentid, name) VALUES(4840028442198016,'Mr. Sanju ','+94 777 21 26 30','','',5647648723828736,'Sanju Travels');
+insert into Contractor ( id, address1, address2, address3, address4, agentid, name) VALUES(4840028442198016,'Mr. Sanju ','+94 777 21 26 30','','',5647648723828736,'Sanju Travels');
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+<div class='container-fluid'>
+
+    <!-- pass in the variable if our form is valid or invalid -->
+    <form name="detailsForm" novalidate>
+        <!-- novalidate prevents HTML5 validation since we will be validating ourselves -->
+
+        <div class="col-xs-12">
+            <pre class="bg-primary">{{route.data.startroute + ' to '+route.data.endroute}}</pre>
+            <pre class="bg-primary">{{' Price $US'+ route.data.cents/100}}</pre>
+
+            <table>
+            <tr>
+                <td>{{route.pickupTimeText}}</td>
+                <td>{{booking.data.dateText}}</td>
+            </tr>
+            <tr>
+                <td>{{route.pickupTypeText}}</td>
+                <td>{{booking.data.flightNo}}</td>
+            </tr>
+            <tr>
+                <td>Landing Time.</td>
+                <td>{{booking.data.landingTime}}</td>
+            </tr>
+            <tr>
+                <td>Your Name</td>
+                <td>{{booking.data.name}}</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>{{booking.data.email}}</td>
+            </tr>
+            <tr>
+                <td>Passengers</td>
+                <td>{{booking.data.pax}}</td>
+            </tr>
+            <tr>
+                <td>Surfboards</td>
+                <td>{{booking.data.surfboards}}</td>
+            </tr>
+            <tr>
+                <td>Other requirements</td>
+                <td>{{booking.data.requirements}}</td>
+            </tr>
+        </table>
+        </div>
+
+        <div class="col-xs-6">
+            <button ui-sref="form.payment" ng-disabled="detailsForm.$invalid" class="btn btn-block btn-info" ng-click="addPayment()">
+                Payment <span class="glyphicon glyphicon-circle-arrow-right"></span>
+            </button>
+        </div>
+    </form>
+
+</div>

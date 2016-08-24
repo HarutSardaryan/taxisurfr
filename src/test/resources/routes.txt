@@ -1,0 +1,2111 @@
+<routeList>
+<list>
+  <RouteData>
+    <id>4509291868323840</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>10000</cents>
+    <startEnd>Colombo AirporttoHikkaduwa</startEnd>
+    <link>hikkaduwa</link>
+    <inactive>false</inactive>
+    <image>5185581579501568</image>
+    <start>Colombo Airport</start>
+    <end>Hikkaduwa</end>
+    <description>Pickup at the airport. The trip is 140km and takes approximately 3 hours. All expenses are included.</description>
+    <contractorId>6053487230058496</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4652897522417664</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>DambullatoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>6217622827827200</image>
+    <start>Dambulla</start>
+    <end>Colombo</end>
+    <description>180km or 4 hrs. approx.</description>
+    <contractorId>5900146629935104</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4665396145684480</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>15500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoRatmalana Domestic Airport</startEnd>
+    <inactive>false</inactive>
+    <image>4758665655484416</image>
+    <start>Arugam Bay</start>
+    <end>Ratmalana Domestic Airport</end>
+    <description>Anytime of day or night collection from the domestic airport. Transit time to Arugam Bay just under 7 hours.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4677890205548544</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>17500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>PolunnaruwatoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>6517810440175616</image>
+    <start>Polunnaruwa</start>
+    <end>Colombo</end>
+    <description>5 hrs. and 250km approx.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4686821590040576</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>VakaraitoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>5091722920984576</image>
+    <start>Vakarai</start>
+    <end>Colombo</end>
+    <description>310km or 7 hrs. drive</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4734215883063296</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoNuwara Eliya</startEnd>
+    <inactive>false</inactive>
+    <image>6262969629409280</image>
+    <start>Colombo Downtown</start>
+    <end>Nuwara Eliya</end>
+    <description>180km approx. or 4 hrs.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4772980110393344</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoJungle Beach Trincomalee</startEnd>
+    <inactive>false</inactive>
+    <image>6000853278261248</image>
+    <start>Colombo Downtown</start>
+    <end>Jungle Beach Trincomalee</end>
+    <description>approx. 6 hrs.transfer time</description>
+    <contractorId>5900146629935104</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4787871433097216</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>15500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoMount Lavinia</startEnd>
+    <inactive>false</inactive>
+    <image>4657003108499456</image>
+    <start>Arugam Bay</start>
+    <end>Mount Lavinia</end>
+    <description>We pick you up from an hotel in the M.L. area. Or Ratmalana, Moratuwa etc.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4790560351059968</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoPassikudah</startEnd>
+    <inactive>false</inactive>
+    <image>6012821607284736</image>
+    <start>Colombo Downtown</start>
+    <end>Passikudah</end>
+    <description>310km or 7 hrs. transfer time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4795657537716224</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>15000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoNilaveli Beach</startEnd>
+    <inactive>false</inactive>
+    <image>4803166616944640</image>
+    <start>Colombo Downtown</start>
+    <end>Nilaveli Beach</end>
+    <description>approx. 6 hrs. transfer time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4802195417464832</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>UnawatunatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5980732564439040</image>
+    <start>Unawatuna</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 7 hrs.transfer time</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4802704639524864</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>22000</cents>
+    <agentCents>20500</agentCents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Day Hire - 4 days to/from AnywheretoAnywhere</startEnd>
+    <inactive>false</inactive>
+    <image>6034525419208704</image>
+    <start>Day Hire - 4 days to/from Anywhere</start>
+    <end>Anywhere</end>
+    <description>Per day hire is $55 incl. 100km each extra km $0,35 All incl. fuel, accommodation etc. min. 3 days Start and finish must be the same place. Or extra charges are levied. To book, simply enter your date, pickup place and the number of days you wish to book the a/c vehicle and driver. The type of vehicle provided varies and depends on your requirements</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4804129360707584</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>GalletoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5679846214598656</image>
+    <start>Galle</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 7 hrs.transfer time</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4815145012297728</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>8000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>KumanatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5709717443706880</image>
+    <start>Kumana</start>
+    <end>Arugam Bay</end>
+    <description>This is a day trip into the National Park. Called Yala East. Or Kumana. Great for bird watching, see a few Leopards and Elephants. Plus wild deer, wild boar and if you are lucky spot some bears.
+It&apos;s NOT a Zoo. NOT an &apos;Orphanage&apos; NOT a show. But a quiet, very remote true Nature Park. With shy and not domesticated or trained animals. Nobody goes round feeding them like elsewhere. So you will see less of them of course. But this is still true, totally unspoiled Sri Lankan  Nature!</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4815549678747648</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>12000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>PolunaruwatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5931123813122048</image>
+    <start>Polunaruwa</start>
+    <end>Arugam Bay</end>
+    <description>Polunaruwa is a great old city full of historical monuments and ruins.The trip takes you via Batticaloa and Kalmunai, All along the East Coast Road. Allow 6 hrs. for this trip </description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4818118203408384</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>100</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Test TriptoAbaY</startEnd>
+    <inactive>false</inactive>
+    <image>4768179276480512</image>
+    <start>Test Trip</start>
+    <end>AbaY</end>
+    <description>Just a test transfer </description>
+    <contractorId>6053487230058496</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4821372983312384</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>MidigamatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6596697446678528</image>
+    <start>Midigama</start>
+    <end>Arugam Bay</end>
+    <description>Midigama is also in the deep South of the island. Not far from Galle and the Southern Railways stations and it&apos;s connections. Allow 6 hrs. for this nice trip</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4826551640129536</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>7500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoBeruwela</startEnd>
+    <inactive>false</inactive>
+    <image>5654672874405888</image>
+    <start>Colombo Downtown</start>
+    <end>Beruwela</end>
+    <description>approx. 2 hrs. transfer + waiting time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4828960579911680</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>12500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoWeligama</startEnd>
+    <inactive>false</inactive>
+    <image>4845497546178560</image>
+    <start>Colombo Downtown</start>
+    <end>Weligama</end>
+    <description>165km or about 3 hrs.drive</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4836780104744960</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>11000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>PassekudahtoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>4897926480396288</image>
+    <start>Passekudah</start>
+    <end>Arugam Bay</end>
+    <description>There are many up-market hotels in this Sri lanka Tourist Board designed resort. Some are completed, others  seem stuck in their development. Perhaps due to too many hotels in one location and little other activities. Indeed, there is no actual village life nearby. Allow 4 to 5 hrs. for this 160km trip due North, all along the famous A4 Eastern Coast Road. Passing through Batticaloa and Kalmunai</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4839157100707840</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>5000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo AirporttoMount Lavinia</startEnd>
+    <inactive>false</inactive>
+    <image>5778797429260288</image>
+    <start>Colombo Airport</start>
+    <end>Mount Lavinia</end>
+    <description>via Colombo city 90 Minutes approx.</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4840827104788480</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14000</cents>
+    <startEnd>Room at the SVHtoSiam View Hotel</startEnd>
+    <inactive>false</inactive>
+    <image>5702907169079296</image>
+    <start>Room at the SVH</start>
+    <end>Siam View Hotel</end>
+    <description>4 nights secure booking in an a/c room at the Siam View Hotel. Rate Rs./ 4,500 / night all incl.
+Please indicate the dates in the &quot;other requirements&quot; box</description>
+    <contractorId>5090845673914368</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4864491233738752</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>KandytoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5160715665014784</image>
+    <start>Kandy</start>
+    <end>Arugam Bay</end>
+    <description>Kandy is a Sri Lanka&apos;s second biggest City. A busy place. Polluted and land  locked. It is however popular due to huge promotions and a few attractions. The &apos;Temple of the Tooth&apos; being one, the &apos;Pinawela Elephant &quot;Orphanage&quot; being the other. Opinions vary. The famous Royal Botanical Gardens at Peradenia, however is without doubt worth a trip. Allow 6 to 7 hours for this trip, as the roads are still not very smooth inland.</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4868254296178688</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>25000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Return Special Offer Airport-AbaY- back to the AirporttoArugam Bay</startEnd>
+    <link>arugambayreturn</link>
+    <inactive>true</inactive>
+    <image>6042445875773440</image>
+    <start>Return Special Offer Airport-AbaY- back to the Airport</start>
+    <end>Arugam Bay</end>
+    <description>$125 / trip !
+A very special transfer offer
+Book your journey from the Airport to Arugam Bay
+At the same time reserve your return trip to catch your flight home.
+Full Peace of mind.
+Safe, secure, air-conditioned comfort
+Special rate for this return trip: Just $250 (all incl.)
+Add your return date in the &apos;other requirements&apos; box
+?D?ate changes are permitted. Must allow sharing function</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4869565469163520</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoGalle</startEnd>
+    <inactive>false</inactive>
+    <image>5116178464768000</image>
+    <start>Arugam Bay</start>
+    <end>Galle</end>
+    <description>Approximately 7 hours transfer time</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4870477612843008</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>12000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoPolunaruwa</startEnd>
+    <inactive>false</inactive>
+    <image>5931123813122048</image>
+    <start>Arugam Bay</start>
+    <end>Polunaruwa</end>
+    <description>Polunaruwa is a great old city full of historical monuments and ruins.The trip takes you via Batticaloa and Kalmunai, All along the East Coast Road. Allow 6 hrs. for this trip </description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4874497165361152</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>9500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo AirporttoKalpitiya</startEnd>
+    <inactive>false</inactive>
+    <image>6236335463464960</image>
+    <start>Colombo Airport</start>
+    <end>Kalpitiya</end>
+    <description>approx. 3 to 4 hrs. transfer time</description>
+    <contractorId>5900146629935104</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4878478868480000</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>MirissatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6285853752033280</image>
+    <start>Mirissa</start>
+    <end>Arugam Bay</end>
+    <description>This transfer connects two of the island&apos;s best resorts. Mirissa is just as popular as Arugam Bay is. The only thing that sets them apart are the opposite seasons. And maybe the surf conditions at different times of the year. Allow 6 hrs. for the transfer</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4879495433551872</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>7500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>BeruwelatoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>5654672874405888</image>
+    <start>Beruwela</start>
+    <end>Colombo</end>
+    <description>approx. 2 hrs. transfer + waiting time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4886921700442112</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Jungle Beach TrincomaleetoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>6000853278261248</image>
+    <start>Jungle Beach Trincomalee</start>
+    <end>Colombo</end>
+    <description>approx. 6 hrs.transfer time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4892024121589760</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>15000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Nilaveli BeachtoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>4803166616944640</image>
+    <start>Nilaveli Beach</start>
+    <end>Colombo</end>
+    <description>approx. 6 hrs. transfer time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4899255235903488</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoBandarawella</startEnd>
+    <inactive>false</inactive>
+    <image>5649648836411392</image>
+    <start>Arugam Bay</start>
+    <end>Bandarawella</end>
+    <description>Bandarawella has a nice mountain climate. A great market. Also a unique hotel called the &apos;Tea Planters Club&apos; in the colonial days. You can catch the train there. To Ella or back to Colombo via Kandy. Allow min. 4 hrs. to get there from Arugam Bay</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4901440568950784</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>6000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>EllatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6247403325751296</image>
+    <start>Ella</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 140km /3 hrs. journey</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4910138683031552</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16500</cents>
+    <agentCents>15500</agentCents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Day Hire -min. 3 daystoAnywhere</startEnd>
+    <inactive>false</inactive>
+    <image>6306818024275968</image>
+    <start>Day Hire -min. 3 days</start>
+    <end>Anywhere</end>
+    <description>Per day hire is $55 incl. 100km
+each extra km $0,35
+All incl. fuel, accommodation etc.
+min. 3 days
+Start and finish must be the same place.
+Or extra charges are levied.
+To book, simply enter your date, pickup place and the number of days you wish to book the a/c vehicle and driver.
+The type of vehicle provided varies and depends on your requirements</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4910555429076992</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>60000</cents>
+    <startEnd> Colombo AirporttoArugam Bay YMCA</startEnd>
+    <inactive>true</inactive>
+    <image>5919492370595840</image>
+    <start> Colombo Airport</start>
+    <end>Arugam Bay YMCA</end>
+    <description>This is a special offer for Scouts and other Young, approved Groups. We will provide facilities for up to 28 people. A large bus can also be supplied upon request. At the YMCArugam accommodation, showers, WiFi etc. will be provided free of charge, i.e. everything is incl. in the rate quoted</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4915353847070720</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Nuwara EliyatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5427441187160064</image>
+    <start>Nuwara Eliya</start>
+    <end>Arugam Bay</end>
+    <description>The trip up country to &apos;Little England&apos; is along old, still bumpy roads. Takes about 6 hrs. or even more. It&apos;s cool up there! Take your jumper.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>4917068344328192</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo AirporttoKalmunai</startEnd>
+    <inactive>false</inactive>
+    <image>6291835836170240</image>
+    <start>Colombo Airport</start>
+    <end>Kalmunai</end>
+    <description>310km or 7 hrs. drive</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5085319393181696</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>10500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>TangalletoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6276940352716800</image>
+    <start>Tangalle</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 5 hrs. transfer time</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5088530753650688</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>3000</cents>
+    <startEnd>MataratoTangalle</startEnd>
+    <inactive>false</inactive>
+    <image>6269354836492288</image>
+    <start>Matara</start>
+    <end>Tangalle</end>
+    <description>Hotel pickup. All costs included in price.</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5089586443190272</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>MannartoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>5353510304481280</image>
+    <start>Mannar</start>
+    <end>Colombo</end>
+    <description>280km or 6 hrs.</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5089962521264128</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>10500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoTangalle</startEnd>
+    <inactive>false</inactive>
+    <image>6276940352716800</image>
+    <start>Arugam Bay</start>
+    <end>Tangalle</end>
+    <description>Approximately 5 hours transfer time</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5097024655458304</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>4500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoAkkaraipattu</startEnd>
+    <inactive>false</inactive>
+    <image>5714902542974976</image>
+    <start>Arugam Bay</start>
+    <end>Akkaraipattu</end>
+    <description>This is a short, but nice little trip all along the Eastern Coast, crossing three new bridges. To the nearest big town. Where you will find the best local Hospital, the only proper liquor shop(s) and a vibrant market and bus stations with onward connections. approx. 1 hr. or so trip only</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5117366291660800</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoBatticaloa</startEnd>
+    <inactive>false</inactive>
+    <image>6027055128903680</image>
+    <start>Arugam Bay</start>
+    <end>Batticaloa</end>
+    <description>Approximately 150km or 4 hrs. transfer
+</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5119512433131520</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoNuwara Eliya</startEnd>
+    <inactive>false</inactive>
+    <image>5427441187160064</image>
+    <start>Arugam Bay</start>
+    <end>Nuwara Eliya</end>
+    <description>The trip up country to &apos;Little England&apos; is along old, still bumpy roads. Takes about 6 hrs. or even more. It&apos;s cool up there! Take your jumper.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5121099960418304</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoMidigama</startEnd>
+    <inactive>false</inactive>
+    <image>6596697446678528</image>
+    <start>Arugam Bay</start>
+    <end>Midigama</end>
+    <description>Midigama is also in the deep South of the island. Not far from Galle and the Southern Railways stations and it&apos;s connections. Allow 6 hrs. for this nice trip</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5121716422443008</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>10500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>TangalletoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6553341094002688</image>
+    <start>Tangalle</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 5 hrs.transfer time</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5130250522460160</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>23000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>JaffnatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6206651333869568</image>
+    <start>Jaffna</start>
+    <end>Arugam Bay</end>
+    <description>Jaffna is unique. And located at the Northern tip of the island. Drivers never used to wish to travel up there due to security concerns. And there are as good as no return trips back down from there. It&apos;s a nice journey though. An amazing experience into the former war zone. Get a great, knowledgable but politically Neytral driver: And this will be Your experience of a life time.
+It&apos;s basically a min.two day trip.
+Longer if you wish to explore Kayts and the island of DELFT with it&apos;s wild horses</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5132636779446272</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>UnawatunatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5710758973276160</image>
+    <start>Unawatuna</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 7 hrs. transfer time</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5137069722566656</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>17500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>KirindatoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>4871180242649088</image>
+    <start>Kirinda</start>
+    <end>Colombo</end>
+    <description>approx. 7 hrs.or 300km</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5145966210449408</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>23000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoJaffna</startEnd>
+    <inactive>false</inactive>
+    <image>6206651333869568</image>
+    <start>Arugam Bay</start>
+    <end>Jaffna</end>
+    <description>Jaffna is unique. And located at the Northern tip of the island. Drivers never used to wish to travel up there due to security concerns. And there are as good as no return trips back down from there. It&apos;s a nice journey though. An amazing experience into the former war zone. Get a great, knowledgable but politically Neytral driver: And this will be Your experience of a life time.
+It&apos;s basically a min.two day trip.
+Longer if you wish to explore Kayts and the island of DELFT with it&apos;s wild horses</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5146767490285568</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>6000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoMonaragala</startEnd>
+    <inactive>false</inactive>
+    <image>6246999867260928</image>
+    <start>Arugam Bay</start>
+    <end>Monaragala</end>
+    <description>Just about everyone who comes to Arugam bay passes through Monaragala. On the way from Colombo or the airports. because it&apos;s the only way in. There is hardly any other reason to book a trip to Mona. Unless: You wish to go shopping, visit the better hospital or find a proper liquor shop. Allow just 90 Minutes for the actual trip on our new and smooth roads. But stop in Lahugala and admire the wild herds of Elephants. At no extra charge.</description>
+    <contractorId>5900146629935104</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5146925732986880</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>25000</cents>
+    <agentCents>22500</agentCents>
+    <startEnd>Return Transfer OffertoArugam Bay - return</startEnd>
+    <inactive>false</inactive>
+    <image>4838549362835456</image>
+    <start>Return Transfer Offer</start>
+    <end>Arugam Bay - return</end>
+    <description>$US125 / trip !
+A very special transfer offer.
+Book your journey from the Airport to Arugam Bay
+At the same time reserve your return trip to catch your flight home.
+Full peace of mind.
+Safe, secure, air-conditioned comfort
+Special rate for this return trip: Just $US250 (all incl.)
+Add your return date in the &apos;other requirements&apos; box
+date changes are permitted. Must allow sharing function</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5149503652888576</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>MirissatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5984141963165696</image>
+    <start>Mirissa</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 6 hrs.transfer time</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5152655219359744</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>KalmunaitoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>6291835836170240</image>
+    <start>Kalmunai</start>
+    <end>Colombo</end>
+    <description>310km or 7 hrs. drive</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5154698147397632</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoHikkaduwa</startEnd>
+    <inactive>false</inactive>
+    <image>5975490288418816</image>
+    <start>Colombo Downtown</start>
+    <end>Hikkaduwa</end>
+    <description>approx. 3 hrs. drive and waiting time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5167211400396800</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>8700</cents>
+    <startEnd>Udawalawe National ParktoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6296704315817984</image>
+    <start>Udawalawe National Park</start>
+    <end>Arugam Bay</end>
+    <description>This is a good day trip from AbaY. Or best to do on your way back to Colombo or the Airport.  Unlike the wild, untouched Lahugala and Kumana this is a tourist attraction. And could be seen more like a nice,  open zoo</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5169874951208960</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>NilavelitoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6036639348424704</image>
+    <start>Nilaveli</start>
+    <end>Arugam Bay</end>
+    <description>Nilaweli is just North of Trincomalee. It&apos;s famous for wide swept, empty and often shallow beaches. There is no surf up there. But good diving conditions. Allow 7 hrs. or so for a smooth transfer all along the Eastern Coast line.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5179401457106944</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>15000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>HikkaduwatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5080109597851648</image>
+    <start>Hikkaduwa</start>
+    <end>Arugam Bay</end>
+    <description>Not many Arugam Bay visitors ever return to Hikkaduwa. It&apos;s a different type of resort, although both made their name as a Surfer&apos;s destination. Hikka has more parties, the locals are much more used to tourists. And as a result there are many more hotels and restaurants. Allow 7 hrs. min. for this transfer</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5192603381268480</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>5000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>AmparatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5160201342681088</image>
+    <start>Ampara</start>
+    <end>Arugam Bay</end>
+    <description>This trip is all along the nice, quiet A4 coastal road. Via 3 new bridges. To the regional admin. Centre of the Eastern Province: Ampara. Here you find the  very best equipped Government hospital, plenty of licensed liquor shops, some good restaurants and a very nice, old Cinema. approx. 100 Minutes from AbaY (one way):
+The rate ou pay includes 3 hrs. waiting/shopping/ drinking time in Ampara. And we&apos;ll take you back to AbaY fro FREE !</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5196459188158464</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>KandytoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5121503418908672</image>
+    <start>Kandy</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 6 hrs. transfer time</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5196828823781376</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>8000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoKumana</startEnd>
+    <inactive>false</inactive>
+    <image>5709717443706880</image>
+    <start>Arugam Bay</start>
+    <end>Kumana</end>
+    <description>This is a day trip into the National Park. Called Yala East. Or Kumana. Great for bird watching, see a few Leopards and Elephants. Plus wild deer, wild boar and if you are lucky spot some bears.
+It&apos;s NOT a Zoo. NOT an &apos;Orphanage&apos; NOT a show. But a quiet, very remote true Nature Park. With shy and not domesticated or trained animals. Nobody goes round feeding them like elsewhere. So you will see less of them of course. But this is still true, totally unspoiled Sri Lankan  Nature!</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5215847475838976</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoMannar </startEnd>
+    <inactive>false</inactive>
+    <image>5353510304481280</image>
+    <start>Colombo Downtown</start>
+    <end>Mannar </end>
+    <description>280km or 6 hrs.</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5290241141243904</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>6000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo AirporttoColombo City</startEnd>
+    <link>colombodowntown</link>
+    <inactive>false</inactive>
+    <image>6449552940859392</image>
+    <start>Colombo Airport</start>
+    <end>Colombo City</end>
+    <description>VIP Airport Limousine Service</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5356584964194304</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>15000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoTrincomalee</startEnd>
+    <inactive>false</inactive>
+    <image>6233926523682816</image>
+    <start>Colombo Downtown</start>
+    <end>Trincomalee</end>
+    <description>approx. 6 hrs. transfer time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5358607491137536</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>12500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>WeligamatoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>4845497546178560</image>
+    <start>Weligama</start>
+    <end>Colombo</end>
+    <description>165km or about 3 hrs.drive</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5362226403737600</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoKandy</startEnd>
+    <inactive>false</inactive>
+    <image>5160715665014784</image>
+    <start>Arugam Bay</start>
+    <end>Kandy</end>
+    <description>Kandy is a Sri Lanka&apos;s second biggest City. A busy place. Polluted and land  locked. It is however popular due to huge promotions and a few attractions. The &apos;Temple of the Tooth&apos; being one, the &apos;Pinawela Elephant &quot;Orphanage&quot; being the other. Opinions vary. The famous Royal Botanical Gardens at Peradenia, however is without doubt worth a trip. Allow 6 to 7 hours for this trip, as the roads are still not very smooth inland.</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5366116570365952</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>5000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Mount LaviniatoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>5778797429260288</image>
+    <start>Mount Lavinia</start>
+    <end>Colombo</end>
+    <description>via Colombo city 90 Minutes approx.</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5378094965719040</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>11000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoPassekudah</startEnd>
+    <inactive>false</inactive>
+    <image>4897926480396288</image>
+    <start>Arugam Bay</start>
+    <end>Passekudah</end>
+    <description>There are many up-market hotels in this Sri lanka Tourist Board designed resort. Some are completed, others  seem stuck in their development. Perhaps due to too many hotels in one location and little other activities. Indeed, there is no actual village life nearby. Allow 4 to 5 hrs. for this 160km trip due North, all along the famous A4 Eastern Coast Road. Passing through Batticaloa and Kalmunai</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5391910533332992</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>19000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo AirporttoJaffna</startEnd>
+    <inactive>false</inactive>
+    <image>5916460257902592</image>
+    <start>Colombo Airport</start>
+    <end>Jaffna</end>
+    <description>approx.400km or 6 to 7 hrs.transfer time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5400061173301248</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>11000</cents>
+    <startEnd>Mirissa or WeligamatoColombo / or / airport</startEnd>
+    <inactive>false</inactive>
+    <image>5902891785125888</image>
+    <start>Mirissa or Weligama</start>
+    <end>Colombo / or / airport</end>
+    <description>Connecting the great south coast resort with the International Airport. 7 seater mini bus. a/c just for You</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5414906593542144</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>SigiriyatoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>6599459110649856</image>
+    <start>Sigiriya</start>
+    <end>Colombo</end>
+    <description>180km or approx.4hrs.</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5428242466996224</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoTrincomalee</startEnd>
+    <inactive>false</inactive>
+    <image>5169145746292736</image>
+    <start>Arugam Bay</start>
+    <end>Trincomalee</end>
+    <description>Trincomalee is an interesting deep sea harbour city. With a great history. Most visitors would continue slightly North to the beaches of Nilaveli and Jungle beach. Allow 7 hrs. along the beautiful, brand new, smooth Eastern Coastal Road, the A4 passing Batticaloa on your way North</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5430978629599232</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>12000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>SigiriyatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6225493086961664</image>
+    <start>Sigiriya</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 6 hrs.transfer time</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5437447118782464</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>17500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoPolunnaruwa</startEnd>
+    <inactive>false</inactive>
+    <image>6517810440175616</image>
+    <start>Colombo Downtown</start>
+    <end>Polunnaruwa</end>
+    <description>5 hrs. and 250km approx.</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5437903324839936</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>HikkaduwatoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>5975490288418816</image>
+    <start>Hikkaduwa</start>
+    <end>Colombo</end>
+    <description>approx. 3 hrs. drive and waiting time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5449871653863424</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>17500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo AirporttoKirinda</startEnd>
+    <inactive>false</inactive>
+    <image>4871180242649088</image>
+    <start>Colombo Airport</start>
+    <end>Kirinda</end>
+    <description>approx. 7 hrs.or 300km</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5474078357979136</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>RatnapuratoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5996377519685632</image>
+    <start>Ratnapura</start>
+    <end>Arugam Bay</end>
+    <description>Hard to think why anyone wants to go all the way to  Ratnapura from Arugam Bay. Unless you are interested in Gems, Stones and Jewelry that is. In any event, you will pass this busy land locked town on your way. To and from Colombo and the airport. Take a look around then! Allow 6 hrs. for the transfer</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5478303800492032</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>12000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>SigiriyatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5991192420417536</image>
+    <start>Sigiriya</start>
+    <end>Arugam Bay</end>
+    <description>Sigiriya is a must. It&apos;s a great, old, famous rock fortress. A stunning place to visit - if you are fit enough to climb a few hundred steps. Allow 6 hrs. to get there.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5632908932939776</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>8000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Yala TissamaharamatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6262207541149696</image>
+    <start>Yala Tissamaharama</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 4 hrs.transfer duration</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5634943740805120</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>7500</cents>
+    <startEnd>HikkaduwatoColombo Airport</startEnd>
+    <inactive>false</inactive>
+    <image>5679960232558592</image>
+    <start>Hikkaduwa</start>
+    <end>Colombo Airport</end>
+    <description>All-incl. Highway toll charges. Quick, efficient and safe transfer. Vehicles provided to suit number of passengers</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5638124231196672</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9600</cents>
+    <startEnd>Arugam BaytoMahiyanganaya</startEnd>
+    <inactive>false</inactive>
+    <image>5647712410140672</image>
+    <start>Arugam Bay</start>
+    <end>Mahiyanganaya</end>
+    <description>Mahiyangana is a Pali word (in Sinhalese Bintenna) which means flat land. It is situated eastwards to the steep eastern falls of central hills. The relative flatness of the area can be seen while traveling on the road from Kandy to Padiyathalawa across Hunnasgiriya and famous 18 hairpin bends.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5641906755207168</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>18000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoKalpitiya</startEnd>
+    <inactive>false</inactive>
+    <image>5744863563743232</image>
+    <start>Arugam Bay</start>
+    <end>Kalpitiya</end>
+    <description>This is a long transfer right across the entire island. Connecting the Two very Best Surf resorts with each other: Kalpitiya and Arugam Bay.  It will take you at least 8 to 9 hours. But this trip is unique. Passing a fantastic, varied  and ever Changing Countryside. There is a choice of routes to suit your own personal preferences. Our drivers will follow your suggestion!</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5643059551272960</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoBadulla</startEnd>
+    <inactive>false</inactive>
+    <image>4911128404557824</image>
+    <start>Arugam Bay</start>
+    <end>Badulla</end>
+    <description>Badulla is the Train terminal of the amazing mountain line. It&apos;s up in the hills of Sri Lanka. We can collect you from there, or drop you off to catch the train back to Colombo via Kandy. Most visitors however prefer to board at ELLA. It&apos;s nicer that Bad-Badulla (some say) and closer. approx. 4-5 hrs. transit time</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5649776209035264</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>15000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoHikkaduwa</startEnd>
+    <inactive>false</inactive>
+    <image>5080109597851648</image>
+    <start>Arugam Bay</start>
+    <end>Hikkaduwa</end>
+    <description>Not many Arugam Bay visitors ever return to Hikkaduwa. It&apos;s a different type of resort, although both made their name as a Surfer&apos;s destination. Hikka has more parties, the locals are much more used to tourists. And as a result there are many more hotels and restaurants. Allow 7 hrs. min. for this transfer</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5652536396611584</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoKandy</startEnd>
+    <inactive>false</inactive>
+    <image>5919534917615616</image>
+    <start>Colombo Downtown</start>
+    <end>Kandy</end>
+    <description>approx. 4 hrs. transfer time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5661232933634048</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>11000</cents>
+    <startEnd>Colombo AirporttoUnawatuna</startEnd>
+    <link>unawatuna</link>
+    <inactive>false</inactive>
+    <image>6000397072203776</image>
+    <start>Colombo Airport</start>
+    <end>Unawatuna</end>
+    <description>Three hours.drive. 127km</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5664530495438848</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>18000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>KalpitiyatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5744863563743232</image>
+    <start>Kalpitiya</start>
+    <end>Arugam Bay</end>
+    <description>This is a long transfer right across the entire island. Connecting the Two very Best Surf resorts with each other: Kalpitiya and Arugam Bay.  It will take you at least 8 to 9 hours. But this trip is unique. Passing a fantastic, varied  and ever Changing Countryside. There is a choice of routes to suit your own personal preferences. Our drivers will follow your suggestion!</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5679660591480832</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>27500</cents>
+    <agentCents>26000</agentCents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Day Hire - 5 Days to/from AnywheretoAnywhere</startEnd>
+    <inactive>false</inactive>
+    <image>5077678646362112</image>
+    <start>Day Hire - 5 Days to/from Anywhere</start>
+    <end>Anywhere</end>
+    <description>Per day hire is $55 incl. 500km each extra km $0,35 All incl. fuel, accommodation etc. min. 3 days Start and finish must be the same place. Or extra charges are levied. To book, simply enter your date, pickup place and the number of days you wish to book the a/c vehicle and driver. The type of vehicle provided varies and depends on your requirements</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5680316245082112</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoAdam&apos;s Peak</startEnd>
+    <inactive>false</inactive>
+    <image>4874573132595200</image>
+    <start>Arugam Bay</start>
+    <end>Adam&apos;s Peak</end>
+    <description>7 to 8 hrs. transfer time</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5684453372329984</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>8000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Mattala Int. AirporttoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>4862378378264576</image>
+    <start>Mattala Int. Airport</start>
+    <end>Arugam Bay</end>
+    <description>Transfer duration approx. 150 Minutes</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5692656021667840</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9600</cents>
+    <startEnd>MahiyanganayatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5647712410140672</image>
+    <start>Mahiyanganaya</start>
+    <end>Arugam Bay</end>
+    <description>Mahiyangana is a Pali word (in Sinhalese Bintenna) which means flat land. It is situated eastwards to the steep eastern falls of central hills. The relative flatness of the area can be seen while traveling on the road from Kandy to Padiyathalawa across Hunnasgiriya and famous 18 hairpin bends.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5693200475881472</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>18000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Anuradhapura toArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5643701380448256</image>
+    <start>Anuradhapura </start>
+    <end>Arugam Bay</end>
+    <description>It&apos;s a long trip up North. To Anuratnapura. Via the picturesque A4 Coast road, passing Batticaloa. Small stops are included at no extra charge. Visit amazing historical places. Catch the train or bus to Jaffna. Or come back with our a/c  vehicle  to AbaY at no extra charge. It&apos;s an all day trip, for sure.</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5702647994646528</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>4500</cents>
+    <startEnd>HikkaduwatoMatara</startEnd>
+    <inactive>false</inactive>
+    <image>4873921572634624</image>
+    <start>Hikkaduwa</start>
+    <end>Matara</end>
+    <description>Hotel pickup. All costs included.</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5708916163870720</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>18000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoAnuradhapura </startEnd>
+    <inactive>false</inactive>
+    <image>5643701380448256</image>
+    <start>Arugam Bay</start>
+    <end>Anuradhapura </end>
+    <description>It&apos;s a long trip up North. To Anuratnapura. Via the picturesque A4 Coast road, passing Batticaloa. Small stops are included at no extra charge. Visit amazing historical places. Catch the train or bus to Jaffna. Or come back with our a/c  vehicle  to AbaY at no extra charge. It&apos;s an all day trip, for sure.</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5713573250596864</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>DambullatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5421192009744384</image>
+    <start>Dambulla</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 7 hrs.transfer time</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5717648100818944</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>3000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>NegombotoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>4849590381576192</image>
+    <start>Negombo</start>
+    <end>Colombo</end>
+    <description>approx. 1 hrs. drive + waiting time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5720605454237696</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>19000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Airport VIPtoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5654153720233984</image>
+    <start>Airport VIP</start>
+    <end>Arugam Bay</end>
+    <description>This is a VIP improved airport to AbaY transfer service. Non stop, transit time approx. 6-7 hrs.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5723665618436096</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>BandarawellatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5649648836411392</image>
+    <start>Bandarawella</start>
+    <end>Arugam Bay</end>
+    <description>Bandarawella has a nice mountain climate. A great market. Also a unique hotel called the &apos;Tea Planters Club&apos; in the colonial days. You can catch the train there. To Ella or back to Colombo via Kandy. Allow min. 4 hrs. to get there from Arugam Bay</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5732824904630272</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>6000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>MonaragalatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6246999867260928</image>
+    <start>Monaragala</start>
+    <end>Arugam Bay</end>
+    <description>Just about everyone who comes to Arugam bay passes through Monaragala. On the way from Colombo or the airports. because it&apos;s the only way in. There is hardly any other reason to book a trip to Mona. Unless: You wish to go shopping, visit the better hospital or find a proper liquor shop. Allow just 90 Minutes for the actual trip on our new and smooth roads. But stop in Lahugala and admire the wild herds of Elephants. At no extra charge.</description>
+    <contractorId>5900146629935104</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5736754531270656</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <agentCents>15000</agentCents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6551228238528512</image>
+    <start>Colombo Downtown</start>
+    <end>Arugam Bay</end>
+    <description>Our trusted, approved driver will pick you up from your hotel. He will take you safely and directly across the island to Arugam Bay. The transit distance is 355 km and the scenic trip will take approx. 8 hrs. Small stops are possible at no extra charge. All fuel charges and expenses are included and we guarantee that there will be no extra charges.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5747610597982208</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>8000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>KataragamatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5763263606292480</image>
+    <start>Kataragama</start>
+    <end>Arugam Bay</end>
+    <description>Transfer time 4 hours.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5755553334689792</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>4500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>AkkaraipattutoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5714902542974976</image>
+    <start>Akkaraipattu</start>
+    <end>Arugam Bay</end>
+    <description>This is a short, but nice little trip all along the Eastern Coast, crossing three new bridges. To the nearest big town. Where you will find the best local Hospital, the only proper liquor shop(s) and a vibrant market and bus stations with onward connections. approx. 1 hr. or so trip only</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5758578199625728</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>3800</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Room in Colombo - Mount LaviniatoApartment for one night</startEnd>
+    <inactive>false</inactive>
+    <image>5706933096939520</image>
+    <start>Room in Colombo - Mount Lavinia</start>
+    <end>Apartment for one night</end>
+    <description>Relax in a nice private apartment. Just One minute walk from the famous &apos;Golden Mile&quot; beach at Mount Lavinia, Colombo. One air-conditioned  bedroom, lounge, kitchen, TV, washing machine, fridge. Book each day separate. max. 7 nights. Ideal as a stop-over before or after a long flight. Also ideal for city trips, sightseeing &amp; nightlife experiences</description>
+    <contractorId>5090845673914368</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5765606242516992</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>16000</cents>
+    <agentCents>15000</agentCents>
+    <startEnd>Colombo AirporttoArugam Bay</startEnd>
+    <link>arugambay</link>
+    <inactive>false</inactive>
+    <image>5649202965118976</image>
+    <start>Colombo Airport</start>
+    <end>Arugam Bay</end>
+    <description>You will be met by our trusted, approved driver in the airport arrivals hall.
+We guarantee a safe and direct drive across the island to Arugam Bay. The transit distance is 355 km and the scenic trip will take approx. 8 hrs. Small stops are possible at no extra charge. All fuel charges and expenses are included and we guarantee that there will be no extra charges.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5768158526832640</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <agentCents>15000</agentCents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoColombo Airport</startEnd>
+    <inactive>false</inactive>
+    <image>5442991116255232</image>
+    <start>Arugam Bay</start>
+    <end>Colombo Airport</end>
+    <description>Our trusted, approved driver will pick you up from your hotel. The transit distance is 355 km and will take approx. 8 hrs. All fuel charges and expenses are included.
+</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5812721496883200</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoDambulla</startEnd>
+    <inactive>false</inactive>
+    <image>6217622827827200</image>
+    <start>Colombo Downtown</start>
+    <end>Dambulla</end>
+    <description>180km or 4 hrs. approx.</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5847241759653888</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>15500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Ratmalana Domestic AirporttoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>4758665655484416</image>
+    <start>Ratmalana Domestic Airport</start>
+    <end>Arugam Bay</end>
+    <description>Anytime of day or night collection from the domestic airport. Transit time to Arugam Bay just under 7 hours.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5853191094665216</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>10000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Mattala AirporttoHikkaduwa</startEnd>
+    <inactive>false</inactive>
+    <image>6204092875538432</image>
+    <start>Mattala Airport</start>
+    <end>Hikkaduwa</end>
+    <description>approx. 5 hrs. transit time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5929066523787264</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoSigiriya</startEnd>
+    <inactive>false</inactive>
+    <image>6599459110649856</image>
+    <start>Colombo Downtown</start>
+    <end>Sigiriya</end>
+    <description>180km or approx.4hrs.</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5941044919140352</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>12000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>MataratoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6260074016145408</image>
+    <start>Matara</start>
+    <end>Arugam Bay</end>
+    <description>Matara is located on the very Southern point of Ceylon. It is the terminal of the South Coastal Railway line. And a great place to connect with your trip back to Colombo (via Hikka, Galle etc.)</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5941449585590272</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoRatnapura</startEnd>
+    <inactive>false</inactive>
+    <image>5996377519685632</image>
+    <start>Arugam Bay</start>
+    <end>Ratnapura</end>
+    <description>Hard to think why anyone wants to go all the way to  Ratnapura from Arugam Bay. Unless you are interested in Gems, Stones and Jewelry that is. In any event, you will pass this busy land locked town on your way. To and from Colombo and the airport. Take a look around then! Allow 6 hrs. for the transfer</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5944527600746496</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>15000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>AnuradhapuratoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>6317984133939200</image>
+    <start>Anuradhapura</start>
+    <end>Colombo</end>
+    <description>approx. 6 hrs.transfer time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5954860486754304</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Basses IslandstoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>5473559203807232</image>
+    <start>Basses Islands</start>
+    <end>Colombo</end>
+    <description>280km or about 6 hrs. transfer</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5968011408179200</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>3000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo AirporttoNegombo</startEnd>
+    <inactive>false</inactive>
+    <image>4849590381576192</image>
+    <start>Colombo Airport</start>
+    <end>Negombo</end>
+    <description>approx. 1 hrs. drive + waiting time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5971397453021184</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>PassikudahtoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>6012821607284736</image>
+    <start>Passikudah</start>
+    <end>Colombo</end>
+    <description>310km or 7 hrs. transfer time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5977856546963456</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoBasses Islands</startEnd>
+    <inactive>false</inactive>
+    <image>5473559203807232</image>
+    <start>Colombo Downtown</start>
+    <end>Basses Islands</end>
+    <description>280km or about 6 hrs. transfer</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5988278285107200</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>6000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>AmparatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6247616329285632</image>
+    <start>Ampara</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 3 hours transfer time</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5990391140581376</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>NegombotoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>4879240688304128</image>
+    <start>Negombo</start>
+    <end>Arugam Bay</end>
+    <description>Negombo gained it&apos;s fame by being near the main airport of the island. It is a great idea to stop over there one night before - or after your flight back home. It takes 8 hrs. from AbaY to Negombo. But from any hotel there to the departure hall at Bandaranayake Airport it will only takes 30 Minutes of so.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>5993928583020544</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <agentCents>15000</agentCents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Adam&apos;s PeaktoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5182111044599808</image>
+    <start>Adam&apos;s Peak</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 8 hrs. transfer time</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6005395340394496</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoVakarai</startEnd>
+    <inactive>false</inactive>
+    <image>5091722920984576</image>
+    <start>Colombo Downtown</start>
+    <end>Vakarai</end>
+    <description>310km or 7 hrs. drive</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6005941069676544</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoColombo Downtown</startEnd>
+    <inactive>false</inactive>
+    <image>5636904326266880</image>
+    <start>Arugam Bay</start>
+    <end>Colombo Downtown</end>
+    <description>Our trusted, approved driver will pick you up from your hotel. The transit distance is 355 km and will take approx. 8 hrs. All fuel charges and expenses are included.
+</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6033747493257216</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>KirindatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6277852496396288</image>
+    <start>Kirinda</start>
+    <end>Arugam Bay</end>
+    <description>Kirinda is not far from Arugam Bay. On a good day you can actually see the Kirinda Light house beam from our main surf point. But: There is no direct road. That is why  you have to go back. The way you (and everyone else) have come: To Monaragala, onwards to Buttala. Then take the Yala Park perimeter road all the way to Kataragama. Only that way, after 5 hrs. nearly you can reach remote Kirinda.
+Unless you decide to take a boat that is</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6034816671678464</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>11000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>PassekudahtoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5078192968695808</image>
+    <start>Passekudah</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 5 hrs. transfer time</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6036509157228544</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>8500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo AirporttoBentota</startEnd>
+    <inactive>false</inactive>
+    <image>5898880017235968</image>
+    <start>Colombo Airport</start>
+    <end>Bentota</end>
+    <description>approx. 3 hrs.drive and waiting time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6041253753913344</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoPinnawala</startEnd>
+    <inactive>false</inactive>
+    <image>4865292513574912</image>
+    <start>Arugam Bay</start>
+    <end>Pinnawala</end>
+    <description>Pinnawala only has one attraction. And that is the somewhat controversial Elephant &apos;Orphanage&apos;. This  is a tourist destination where you will of course see plenty of elephants. But unlike all of their kind around Arugam Bay and Lahugala they are hardly FREE. It will take 7 hrs. to get there. And it best combined with a stop at the really nice Royal Botanical Gardens at Kandy</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6042968251170816</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Nuwara EliyatoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>6262969629409280</image>
+    <start>Nuwara Eliya</start>
+    <end>Colombo</end>
+    <description>180km approx. or 4 hrs.</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6175554160033792</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>10000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>TangalletoColombo Airport</startEnd>
+    <inactive>false</inactive>
+    <image>6201780438302720</image>
+    <start>Tangalle</start>
+    <end>Colombo Airport</end>
+    <description>approx.5 hrs.transfer along the New Highway</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6197935234613248</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>8500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>BentotatoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>5898880017235968</image>
+    <start>Bentota</start>
+    <end>Colombo</end>
+    <description>approx. 3 hrs.drive and waiting time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6213545494577152</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>3000</cents>
+    <startEnd>HikkaduwatoWeligama</startEnd>
+    <inactive>false</inactive>
+    <image>6283513867272192</image>
+    <start>Hikkaduwa</start>
+    <end>Weligama</end>
+    <description>Hotel pickup. All costs included in the price.</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6215862428106752</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>GalletoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5116178464768000</image>
+    <start>Galle</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 7 hrs. transfer time</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6222519895851008</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoKirinda</startEnd>
+    <inactive>false</inactive>
+    <image>6277852496396288</image>
+    <start>Arugam Bay</start>
+    <end>Kirinda</end>
+    <description>Kirinda is not far from Arugam Bay. On a good day you can actually see the Kirinda Light house beam from our main surf point. But: There is no direct road. That is why  you have to go back. The way you (and everyone else) have come: To Monaragala, onwards to Buttala. Then take the Yala Park perimeter road all the way to Kataragama. Only that way, after 5 hrs. nearly you can reach remote Kirinda.
+Unless you decide to take a boat that is</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6222924562300928</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>5000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoAmpara</startEnd>
+    <inactive>false</inactive>
+    <image>5160201342681088</image>
+    <start>Arugam Bay</start>
+    <end>Ampara</end>
+    <description>This trip is all along the nice, quiet A4 coastal road. Via 3 new bridges. To the regional admin. Centre of the Eastern Province: Ampara. Here you find the  very best equipped Government hospital, plenty of licensed liquor shops, some good restaurants and a very nice, old Cinema. approx. 100 Minutes from AbaY (one way):
+The rate ou pay includes 3 hrs. waiting/shopping/ drinking time in Ampara. And we&apos;ll take you back to AbaY fro FREE !</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6233355829903360</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>6000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoElla</startEnd>
+    <inactive>false</inactive>
+    <image>5689413791121408</image>
+    <start>Arugam Bay</start>
+    <end>Ella</end>
+    <description>Approximately 140km /3 hrs. journey</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6236447401050112</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoUnawatuna</startEnd>
+    <inactive>false</inactive>
+    <image>5710758973276160</image>
+    <start>Arugam Bay</start>
+    <end>Unawatuna</end>
+    <description>Approximately 7 hours transfer time</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6242796168019968</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>15000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>AruratnapuratoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>6547091916587008</image>
+    <start>Aruratnapura</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 8 hrs.transfer time</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6244154988298240</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>13000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoMirissa</startEnd>
+    <inactive>false</inactive>
+    <image>6285853752033280</image>
+    <start>Arugam Bay</start>
+    <end>Mirissa</end>
+    <description>This transfer connects two of the island&apos;s best resorts. Mirissa is just as popular as Arugam Bay is. The only thing that sets them apart are the opposite seasons. And maybe the surf conditions at different times of the year. Allow 6 hrs. for the transfer</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6245412339974144</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>12000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoSigiriya</startEnd>
+    <inactive>false</inactive>
+    <image>5991192420417536</image>
+    <start>Arugam Bay</start>
+    <end>Sigiriya</end>
+    <description>Sigiriya is a must. It&apos;s a great, old, famous rock fortress. A stunning place to visit - if you are fit enough to climb a few hundred steps. Allow 6 hrs. to get there.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6256965265129472</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>KandytoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>5919534917615616</image>
+    <start>Kandy</start>
+    <end>Colombo</end>
+    <description>approx. 4 hrs. transfer time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6266224677748736</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>15000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>TrincomaleetoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>6233926523682816</image>
+    <start>Trincomalee</start>
+    <end>Colombo</end>
+    <description>approx. 6 hrs. transfer time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6272667397128192</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoNilaveli</startEnd>
+    <inactive>false</inactive>
+    <image>6036639348424704</image>
+    <start>Arugam Bay</start>
+    <end>Nilaveli</end>
+    <description>Nilaweli is just North of Trincomalee. It&apos;s famous for wide swept, empty and often shallow beaches. There is no surf up there. But good diving conditions. Allow 7 hrs. or so for a smooth transfer all along the Eastern Coast line.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6275403559731200</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>8000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>HaputaletoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5735995932672000</image>
+    <start>Haputale</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 4 hrs.transfer time</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6279667992494080</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>8700</cents>
+    <startEnd>Arugam BaytoUdawalawe National Park</startEnd>
+    <inactive>false</inactive>
+    <image>6296704315817984</image>
+    <start>Arugam Bay</start>
+    <end>Udawalawe National Park</end>
+    <description>This is a good day trip from AbaY. Or best to do on your way back to Colombo or the Airport.  Unlike the wild, untouched Lahugala and Kumana this is a tourist attraction. And could be seen more like a nice,  open zoo</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6281872048914432</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>15000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo DowntowntoAnuradhapura</startEnd>
+    <inactive>false</inactive>
+    <image>6317984133939200</image>
+    <start>Colombo Downtown</start>
+    <end>Anuradhapura</end>
+    <description>approx. 6 hrs.transfer time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6295774858051584</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>TrincomaleetoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5169145746292736</image>
+    <start>Trincomalee</start>
+    <end>Arugam Bay</end>
+    <description>Trincomalee is an interesting deep sea harbour city. With a great history. Most visitors would continue slightly North to the beaches of Nilaveli and Jungle beach. Allow 7 hrs. along the beautiful, brand new, smooth Eastern Coastal Road, the A4 passing Batticaloa on your way North</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6306630119456768</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>BadullatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>4911128404557824</image>
+    <start>Badulla</start>
+    <end>Arugam Bay</end>
+    <description>Badulla is the Train terminal of the amazing mountain line. It&apos;s up in the hills of Sri Lanka. We can collect you from there, or drop you off to catch the train back to Colombo via Kandy. Most visitors however prefer to board at ELLA. It&apos;s nicer that Bad-Badulla (some say) and closer. approx. 4-5 hrs. transit time</description>
+    <contractorId>6287772797108224</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6308815452504064</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>BatticaloatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5759409141579776</image>
+    <start>Batticaloa</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 150km or 4 hrs. transfer</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6316291648389120</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>15000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>HikkaduwatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>5754258133614592</image>
+    <start>Hikkaduwa</start>
+    <end>Arugam Bay</end>
+    <description>Approximately 8 hrs.transfer time</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6322728730624000</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>12000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoMatara</startEnd>
+    <inactive>false</inactive>
+    <image>6260074016145408</image>
+    <start>Arugam Bay</start>
+    <end>Matara</end>
+    <description>Matara is located on the very Southern point of Ceylon. It is the terminal of the South Coastal Railway line. And a great place to connect with your trip back to Colombo (via Hikka, Galle etc.)</description>
+    <contractorId>4699290953842688</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6327698544656384</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>8000</cents>
+    <agentCents>7500</agentCents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoYala Tissamaharama</startEnd>
+    <inactive>false</inactive>
+    <image>5105437288431616</image>
+    <start>Arugam Bay</start>
+    <end>Yala Tissamaharama</end>
+    <description>Approximately 4 hours transfer duration</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6482484871036928</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>11000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Unawatuna-GalletoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>6000397072203776</image>
+    <start>Unawatuna-Galle</start>
+    <end>Colombo</end>
+    <description>max.3hrs.drive. 127km</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6484507397980160</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>19000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>JaffnatoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>5916460257902592</image>
+    <start>Jaffna</start>
+    <end>Colombo</end>
+    <description>approx.400km or 6 to 7 hrs.transfer time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6488126310580224</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>16000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Arugam BaytoNegombo</startEnd>
+    <inactive>false</inactive>
+    <image>4879240688304128</image>
+    <start>Arugam Bay</start>
+    <end>Negombo</end>
+    <description>Negombo gained it&apos;s fame by being near the main airport of the island. It is a great idea to stop over there one night before - or after your flight back home. It takes 8 hrs. from AbaY to Negombo. But from any hotel there to the departure hall at Bandaranayake Airport it will only takes 30 Minutes of so.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6494983494303744</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>15500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Mount LaviniatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>4657003108499456</image>
+    <start>Mount Lavinia</start>
+    <end>Arugam Bay</end>
+    <description>We pick you up from an hotel in the M.L. area. Or Ratmalana, Moratuwa etc.</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6503994872561664</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>15000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>PinnawalatoArugam Bay</startEnd>
+    <inactive>false</inactive>
+    <image>4865292513574912</image>
+    <start>Pinnawala</start>
+    <end>Arugam Bay</end>
+    <description>Pinnawala only has one attraction. And that is the somewhat controversial Elephant &apos;Orphanage&apos;. This  is a tourist destination where you will of course see plenty of elephants. But unlike all of their kind around Arugam Bay and Lahugala they are hardly FREE. It will take 7 hrs. to get there. And it best combined with a stop at the really nice Royal Botanical Gardens at Kandy</description>
+    <contractorId>4840028442198016</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6507477554167808</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>9500</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>KalpitiyatoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>6236335463464960</image>
+    <start>Kalpitiya</start>
+    <end>Colombo</end>
+    <description>approx. 3 to 4 hrs. transfer time</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6516408938659840</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>11000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo AirporttoGalle</startEnd>
+    <link>galle</link>
+    <inactive>false</inactive>
+    <image>6000397072203776</image>
+    <start>Colombo Airport</start>
+    <end>Galle</end>
+    <description>Three hours.drive. 127km</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6517282763177984</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>10000</cents>
+    <startEnd>TangalletoAirport Colombo</startEnd>
+    <inactive>false</inactive>
+    <image>4914716111536128</image>
+    <start>Tangalle</start>
+    <end>Airport Colombo</end>
+    <description>approx.5 hrs.transfer along the New Highway
+Our trusted driver will welcome you at the Int. airport. And take you to any hotel or destination withing the Tangalle area. In his air-conditioned vehicle.</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6553744888037376</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>11000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo AirporttoMirissa or Weligama</startEnd>
+    <inactive>false</inactive>
+    <image>5902891785125888</image>
+    <start>Colombo Airport</start>
+    <end>Mirissa or Weligama</end>
+    <description>Connecting the great south coast resort with the International Airport. 7 seater mini bus. a/c just for You</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+  <RouteData>
+    <id>6580938272145408</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>10000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo AirporttoTangalle</startEnd>
+    <link>tangalle</link>
+    <inactive>false</inactive>
+    <image>4914716111536128</image>
+    <start>Colombo Airport</start>
+    <end>Tangalle</end>
+    <description>approx.5 hrs.transfer along the New Highway
+Our trusted driver will welcome you at the Int. airport. And take you to any hotel or destination withing the Tangalle area. In his air-conditioned vehicle.</description>
+    <contractorId>5656859750957056</contractorId>
+  </RouteData>
+</list>
+</routeList>

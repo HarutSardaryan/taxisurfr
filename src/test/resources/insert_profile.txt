@@ -1,0 +1,3 @@
+delete from Profile;
+insert into Profile ( id,monitoremail, stripepublishable,stripesecret, test,sendgridkey) VALUES(1, 'dispatch@taxisurfr.com','pk_test_rcKuNpP9OpTri7twmZ77UOI5','sk_test_TCIbuNPlBRe4VowPhqekTO1L',true,'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');
+');

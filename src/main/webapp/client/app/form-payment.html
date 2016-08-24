@@ -1,0 +1,167 @@
+<div class='container-fluid'>
+
+    <form name="paymentForm" stripe-form="charge" novalidate>
+
+        <h2 ng-show="paymentError" class="bg-danger">{{paymentError}}</h2>
+
+        <!--<div class="purchaseMethod selected">-->
+            <!--<p>This is an SSL-encrypted payment. You're safe.</p>-->
+            <!--<div class="ccBlock unknown">-->
+                <!--<p id="requiredValidationBlock" class="error" style="display: none;">Please check your credit card details.</p>-->
+                <!--<p class="error error-cardDetails" style="display: none;">Please check your card number.</p>-->
+                <!--<input id="publicKey" value="10001|BB21C00153BEEE1A0419ED806D47E63E9054CA1CAA0DEF2DBC4FEB9365992243F33707C0EEC6B3643EB77D41D6BF48F2F015C83CCAE6CC7D1C54D3ECEAC45E00A443AFFD8E2642EAB3A68BCE0841E7FB3EC257D51BBA3A35FD378D551E5F08BDB55F9CDBCF7F363E1857D85B0B62760294FFC8395ECEC42C9BC3EDC71E06FA7D188C594F1D17D4392308F1123CAA89DF1099EF729DA723654FBEFCD9884885DD3EEED42E97C462788D685587518FB62883AF0739594D67C42F77466A276D34AD1461FA60DCB0A5A2AFC9A02F4E800CA9DB2AC5C010697CF0F0479E9710F849A052E949DC9082E7A67E43A9BF722354AB3616F1C4ECACD616950CCED7702C5A17" type="hidden">-->
+                <!--<input id="adyen-encrypted-form-expiry-generationtime" value="2016-08-13T06:29:06Z" data-encrypted-name="generationtime" type="hidden">-->
+                <!--<div class="ccAppearance">-->
+                    <!--<div class="ccFront">-->
+                        <!--<div class="ccFieldGroup">-->
+                            <!--<label id="ccNumberLabel" for="ccNumber">Card number</label>-->
+                            <!--<input id="ccNumber" class="form-control valid" data-encrypted-name="number" required="" type="text" aria-required="true">-->
+                        <!--</div>-->
+                        <!--<div class="ccFieldGroup">-->
+                            <!--<label id="ccSecurityCodeLabel" for="ccSecurityCode">Security code</label>-->
+                            <!--<input id="ccSecurityCode" maxlength="4" class="form-control valid" data-encrypted-name="cvc" required="" type="text" aria-required="true">-->
+                        <!--</div>-->
+                        <!--<div class="ccFieldGroup">-->
+                            <!--<label id="ccExpirationLabel" for="ccExpirationMonth">Expiration</label>-->
+                            <!--<select id="ccExpirationMonth" class="form-control valid" data-encrypted-name="expiryMonth" required="" aria-required="true">-->
+                                <!--<option value="">Month</option>-->
+                                <!--<option value="01">01</option>-->
+                                <!--<option value="02">02</option>-->
+                                <!--<option value="03">03</option>-->
+                                <!--<option value="04">04</option>-->
+                                <!--<option value="05">05</option>-->
+                                <!--<option value="06">06</option>-->
+                                <!--<option value="07">07</option>-->
+                                <!--<option value="08">08</option>-->
+                                <!--<option value="09">09</option>-->
+                                <!--<option value="10">10</option>-->
+                                <!--<option value="11">11</option>-->
+                                <!--<option value="12">12</option>-->
+                            <!--</select>-->
+                            <!--<select id="ccExpirationYear" class="form-control valid" data-encrypted-name="expiryYear" required="" aria-required="true">-->
+                                <!--<option value="">Year</option>-->
+                                <!--<option value="2016">16</option>-->
+                                <!--<option value="2017">17</option>-->
+                                <!--<option value="2018">18</option>-->
+                                <!--<option value="2019">19</option>-->
+                                <!--<option value="2020">20</option>-->
+                                <!--<option value="2021">21</option>-->
+                                <!--<option value="2022">22</option>-->
+                                <!--<option value="2023">23</option>-->
+                                <!--<option value="2024">24</option>-->
+                                <!--<option value="2025">25</option>-->
+                                <!--<option value="2026">26</option>-->
+                                <!--<option value="2027">27</option>-->
+                                <!--<option value="2028">28</option>-->
+                                <!--<option value="2029">29</option>-->
+                                <!--<option value="2030">30</option>-->
+                                <!--<option value="2031">31</option>-->
+                            <!--</select>-->
+                        <!--</div>-->
+                        <!--<div class="ccFieldGroup">-->
+                            <!--<label id="ccHolderLabel" for="ccHolder">Card holder</label>-->
+                            <!--<input id="ccHolder" class="form-control valid" data-encrypted-name="holderName" type="text">-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="ccSecurityCodeNote default">-->
+                    <!--<p>Or “CVV”, “CVC” or “CID”.</p>-->
+                    <!--<p>A 3-digit code located to the right of signature strip on the back of your card.</p>-->
+                    <!--<p>A 4-digit code located on the front of your card.</p>-->
+                <!--</div>-->
+                <!--<div class="ccSecurityCodeNote visa visa_electron mastercard maestro discover diners_club_international diners_club_carte_blanche">-->
+                    <!--<p>Or “CVV” or “CVC”.</p>-->
+                    <!--<p>A 3-digit code located to the right of signature strip on the back of your card, separate from the card number.</p>-->
+                <!--</div>-->
+                <!--<div class="ccSecurityCodeNote amex">-->
+                    <!--<p>Or “CID”.</p>-->
+                    <!--<p>A 4-digit code located on the <strong>front of your card</strong>, separate from the card number.</p>-->
+                <!--</div>-->
+                <!--<div style="display:none;" class="recurring-note warning text-warning">Please note that Maestro card payment can not be repeated automatically.</div>-->
+            <!--</div>-->
+            <!--<div id="removeCreditCardConfirm" style="display:none;" class="popup hidden">-->
+                <!--<div class="title">Confirm Credit Card removal</div>-->
+                <!--<p>Are you sure you want to delete this card data?</p>-->
+                <!--<div class="actions"><input value="Remove Credit Card" class="confirm" type="button"><a class="cancel" href="javascript:void(0);">Cancel</a></div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <div>
+            <fieldset>
+                <legend>Payment</legend>
+                <div class="form-group">
+                    <div class="col-sm-3">
+                        <label>Credit Card Number</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input name="card-number" type="text" class="form-control" ng-model="cardData.number" placeholder="9999 9999 9999 9999" required/>
+
+                        <p ng-show="paymentForm.card-number.$invalid && !detailsForm.card-number.$pristine"
+                           class="help-block">Your
+                            credit card number is required.</p></div>
+                </div>
+                <br/><br/>
+
+                <div class="form-group">
+                    <div class="col-sm-3">
+                        <label for="card-holder-name">Name on Card</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" name="cardHolderName" id="card-holder-name"
+                               ng-model="cardData.name"
+                               placeholder="Card Holder's Name"
+                        required/>
+
+                        <p ng-show="paymentForm.cardHolderName.$invalid && !paymentForm.cardHolderName.$pristine"
+                           class="help-block">Your name on the
+                            credit card number is required.</p>
+                    </div>
+                </div>
+                <br/><br/>
+
+                <div class="form-group">
+                    <div class="col-sm-3">
+                        <label>Expiry</label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" ng-model="cardData.expiry" payments-validate="expiry"
+                               payments-format="expiry" placeholder="08 / 18" required/>
+                    </div>
+                </div>
+                <br/><br/>
+
+                <div class="form-group">
+                    <div class="col-sm-3">
+                        <label for="cvv">Card CVV</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" name="cvv" id="cvv" placeholder="Security Code"
+                               ng-model="cardData.cvc" required/>
+
+                        <p ng-show="paymentForm.cvv.$invalid && !paymentForm.cvv.$pristine"
+                           class="help-block">Security code is required.</p>
+                    </div>
+                </div>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"></div>
+
+                <br/><br/>
+
+                <div class="form-group">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <button  ng-disabled="paymentForm.$invalid" class="btn btn-block btn-info"
+                                 ng-click="charge()"
+                                 data-loading-text="<i class='icon-spinner icon-spin icon-large'></i>Processing..."
+                        >
+                            Complete Booking <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                        </button>
+                        <div ng-show="processing">Processing...</div>
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+            </fieldset>
+            <!--<button type="submit">Save</button>-->
+        </div>
+    </form>
+</div>

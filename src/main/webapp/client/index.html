@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<!--this is the client-->
+<head>
+    <meta charset="utf-8">
+
+    <!-- build:css styles/lib.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/angular-loading-bar/build/loading-bar.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!--need these-->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/bower_components/toastr/toastr.css" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/darkly/bootstrap.min.css">
+
+    <!-- build:css styles/app.css -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/.clienttmp/style.css">
+    <!-- endinject -->
+    <!-- endbuild -->
+
+    <!-- CSS -->
+    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/darkly/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="style.css">-->
+
+    <!-- JS -->
+    <!-- load angular, nganimate, and ui-router -->
+    <!--<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>-->
+    <!--<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.min.js"></script>-->
+    <!--<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-animate.min.js"></script>-->
+
+    <!-- build:css styles/lib.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/angular-loading-bar/build/loading-bar.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/app.css -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/.clienttmp/style.css">
+    <!-- endinject -->
+    <!-- endbuild -->
+
+</head>
+<body ng-app="formApp">
+
+<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+
+<!-- build:js js/lib.js -->
+<!-- bower:js -->
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/angular/angular.js"></script>
+<script src="/bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="/bower_components/extras.angular.plus/ngplus-overlay.js"></script>
+<script src="/bower_components/moment/moment.js"></script>
+<script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="/bower_components/toastr/toastr.js"></script>
+<script src="/bower_components/angular-animate/angular-animate.js"></script>
+<script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="/bower_components/angular-google-gapi/dist/angular-google-gapi.min.js"></script>
+<script src="/bower_components/angular-loading-bar/build/loading-bar.js"></script>
+<script src="/bower_components/angular-stripe/release/angular-stripe.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js js/app.js -->
+<!-- inject:js -->
+<script src="/src/main/webapp/client/app/core/core.module.js"></script>
+<script src="/src/main/webapp/client/app/app.js"></script>
+<!-- endinject -->
+<!--<script src="/.clienttmp/templatesClient.js"></script>-->
+
+<!-- inject:templates:js -->
+<!-- endinject -->
+<!-- endbuild -->
+
+<!-- views will be injected here -->
+<div class="container">
+    <div ui-view></div>
+</div>
+
+</body>
+</html>

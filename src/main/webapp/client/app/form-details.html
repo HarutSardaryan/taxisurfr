@@ -1,0 +1,94 @@
+<div class='container-fluid'>
+
+
+    <!-- pass in the variable if our form is valid or invalid -->
+    <form name="detailsForm" novalidate>
+        <!-- novalidate prevents HTML5 validation since we will be validating ourselves -->
+
+        <div class="form-group">
+            <label>Pickup Date</label>
+            <div class="col-xs-12">
+
+
+                <div style="display:inline-block; min-height:290px;">
+                    <div uib-datepicker ng-model="booking.date" class="well well-sm" datepicker-options="options"></div>
+                </div>
+
+                <!--<p class="input-group">-->
+                    <!--<input id="dateText" type="text" class="form-control" uib-datepicker-popup="dd-MMMM-yyyy" ng-model="booking.date"-->
+                           <!--is-open="status.opened" min-date="tomorrow" max-date="maxDate"-->
+                           <!--datepicker-options="dateOptions" ng-required="true"-->
+                           <!--close-text="Close"/>-->
+              <!--<span class="input-group-btn">-->
+                  <!--<button type="button" class="btn btn-default" ng-click="open($event)"><i-->
+                        <!--class="glyphicon glyphicon-calendar"></i></button>-->
+              <!--</span>-->
+                <!--</p>-->
+            </div>
+        </div>
+
+        <!--flightNo-->
+        <div class="form-group col-xs-12">
+            <label for="flightNoId"/>{{route.pickupTypeText}}</label>
+            <input type="text" class="form-control" name="flightNo" id="flightNoId" placeholder={{route.pickupTypeText}}
+                   ng-model="booking.flightNo"
+                   required/>
+
+            <p ng-show="detailsForm.flightNo.$invalid && !detailsForm.flightNo.$pristine" class="help-block">Your
+                flightNo is required.</p>
+        </div>
+
+        <div class="form-group col-xs-12">
+            <label for="flightNoId">{{route.pickupTimeText}}</label>
+            <input type="text" class="form-control" name="landingTime" placeholder={{route.pickupTimeText}}
+                   ng-model="booking.landingTime"
+                   required/>
+
+            <p ng-show="detailsForm.landingTime.$invalid && !detailsForm.landingTime.$pristine" class="help-block">Your
+                landing time is required.</p>
+        </div>
+        <!-- NAME -->
+        <div class="form-group col-xs-12">
+            <label>Your Name</label>
+            <input type="text" class="form-control" name="name" ng-model="booking.name" required>
+
+            <p ng-show="detailsForm.name.$invalid && !detailsForm.name.$pristine" class="help-block">Your name is
+                required.</p>
+        </div>
+
+        <!-- EMAIL -->
+        <div class="form-group col-xs-12">
+            <label>Email</label>
+            <input type="email" name="email" class="form-control" ng-model="booking.email" required>
+
+            <p ng-show="detailsForm.email.$invalid && !detailsForm.email.$pristine" class="help-block">A valid email is
+                required.</p>
+        </div>
+
+        <div class="form-group col-xs-6">
+            <label>Number of Passengers</label>
+            <input type="number" class="form-control" id="numPassengers"
+                   ng-model="booking.pax">
+        </div>
+
+        <div class="form-group col-xs-6">
+            <label>Number of Surfboards</label>
+            <input type="number" class="form-control" id="numSurfboards"
+                   ng-model="booking.surfboards">
+        </div>
+
+
+        <div class="form-group col-xs-12">
+            <label for="requirements">Other requirements</label>
+            <input type="text" class="form-control" id="requirements" placeholder=""
+                   ng-model="booking.requirements">
+        </div>
+        <div class="col-xs-6">
+            <button ui-sref="form.summary" ng-disabled="detailsForm.$invalid" class="btn btn-block btn-info "
+                    ng-click="addBooking()">
+                Summary <span class="glyphicon glyphicon-circle-arrow-right"></span>
+            </button>
+        </div>
+    </form>
+
+</div>

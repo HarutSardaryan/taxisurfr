@@ -1,0 +1,141 @@
+<style>
+    .typeahead-route .custom-popup-wrapper {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        display: none;
+        background-color: #f9f9f9;
+    }
+
+    .typeahead-route .custom-popup-wrapper > .message {
+        padding: 10px 20px;
+        border-bottom: 1px solid #ddd;
+        color: #868686;
+    }
+
+    .typeahead-route .custom-popup-wrapper > .dropdown-menu {
+        position: static;
+        float: none;
+        display: block;
+        min-width: 160px;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+</style>
+
+<script type="text/ng-template" id="customTemplate.html">
+    <a>
+        <img ng-src="http://upload.wikimedia.org/wikipedia/commons/thumb/{{match.model.flag}}" width="16">
+        <span ng-bind-html="match.label | uibTypeaheadHighlight:query"></span>
+    </a>
+</script>
+
+<script type="text/ng-template" id="customPopupTemplate.html">
+    <div class="custom-popup-wrapper"
+         ng-style="{top: position().top+'px', left: position().left+'px'}"
+         style="display: block;"
+         ng-show="isOpen() && !moveInProgress"
+         aria-hidden="{{!isOpen()}}">
+        <p class="message">select location from drop down.</p>
+
+        <ul class="dropdown-menu" role="listbox">
+            <li ng-repeat="match in matches track by $index" ng-class="{active: isActive($index) }"
+                ng-mouseenter="selectActive($index)" ng-click="selectMatch($index)" role="option" id="{{::match.id}}">
+                <div uib-typeahead-match index="$index" match="match" query="query" template-url="templateUrl"></div>
+            </li>
+        </ul>
+    </div>
+</script>
+<div class='container-fluid typeahead-route'>
+
+    <form name="transportForm" novalidate>
+
+        <hi>{{ noroutefound }}</hi>
+        <div class="form-group row" ng-hide="route">
+            <div class="col-sm-6">
+                <label>Pickup</label>
+                <!--<h4>Custom templates for results</h4>-->
+                <!--<pre>Model: {{selectedStart | json}}</pre>-->
+                <input type="text" ng-model="selectedStart" placeholder="Select a pickup place"
+                       uib-typeahead="point as point.name for point in points | filter:{name:$viewValue}"
+                       typeahead-template-url="customTemplate.html"
+                       class="form-control"
+                       typeahead-show-hint="true"
+                       typeahead-on-select="onSelectStart($item, $model, $label);"
+                       typeahead-min-length="0">
+
+            </div>
+            <div class="col-sm-6" ng-hide="selectedStart===null">
+
+                <!--<pre>Model: {{selectedEnd | json}}</pre>-->
+                <label>Dropoff</label>
+                <input type="text" ng-model="selectedEnd" placeholder="Select a dropoff place"
+                       uib-typeahead="point as point.name for point in points | filter:{name:$viewValue}"
+                       typeahead-template-url="customTemplate.html"
+                       class="form-control"
+                       typeahead-show-hint="true"
+                typeahead-on-select="onSelectEnd($item, $model, $label);"
+
+                typeahead-min-length="0">
+            </div>
+        </div>
+        <!--<i ng-show="loadingRoutes" class="glyphicon glyphicon-refresh"></i>-->
+
+        <!--<div ng-show="noResults">-->
+        <!--<i class="glyphicon glyphicon-remove"></i> No Results Found-->
+        <!--</div>-->
+        <div class='col-xs-offset-1' ng-hide="route" class="ng-hide">
+            <div class="form-group row">
+                <h3>Enter your route in the search box.</h3>
+                <br>
+
+                <div class="row"><img src="images/check_mark.png" height="30px" width="30px"><span> Full refund up to 24 hrs. beforehand</span>
+                </div>
+                <div class="row"><img src="images/check_mark.png" height="30px" width="30px"><span> Trusted driver and a safe vehicle</span>
+                </div>
+                <div class="row"><img src="images/check_mark.png" height="30px" width="30px"><span> Sharing function if required</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12" ng-show="route">
+            <br/>
+            <!--<h4 class="row bg-success  col-sm-9">{{route.start + ' to '+route.end}}</h4>-->
+            <div class="form-group row">
+                <!--<pre>Route: {{route}}</pre>-->
+
+                <h4>Description</h4>
+                <pre class="bg-primary">{{route.data.startroute + ' to '+route.data.endroute}}</pre>
+                <pre class="bg-primary">{{' Price $US'+ route.data.cents/100}}</pre>
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        <h6>{{route.data.description}}</h6>
+                    </div>
+                    <div class="col-sm-3">
+                        <img ng-src="{{imgSrc}}" width="150px"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-xs-6">
+                <button ng-show="route" ui-sref="form.details" class="btn btn-block btn-info" ng-click="addSession()">
+                    Book Now <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                </button>
+            </div>
+            <div class="col-xs-6">
+                <button ng-show="route" class="btn btn-block btn-info" ng-click="resetRoute()">
+                    New Route.
+                </button>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+

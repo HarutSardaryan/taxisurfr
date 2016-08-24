@@ -1,0 +1,31 @@
+<routeList>
+<list>
+  <routeData>
+    <id>4509291868323840</id>
+    <pickupType>AIRPORT</pickupType>
+    <cents>10000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>Colombo AirporttoHikkaduwa</startEnd>
+    <link>hikkaduwa</link>
+    <inactive>false</inactive>
+    <image>5185581579501568</image>
+    <start>Colombo Airport</start>
+    <end>Hikkaduwa</end>
+    <description>Pickup at the airport. .</description>
+    <contractorId>4699290953842688</contractorId>
+  </routeData>
+  <routeData>
+    <id>4652897522417664</id>
+    <pickupType>HOTEL</pickupType>
+    <cents>14000</cents>
+    <associatedRoute>0</associatedRoute>
+    <startEnd>DambullatoColombo</startEnd>
+    <inactive>false</inactive>
+    <image>6217622827827200</image>
+    <start>Dambulla</start>
+    <end>Colombo</end>
+    <description>180km or 4 hrs. approx.</description>
+    <contractorId>4699290953842688</contractorId>
+  </routeData>
+  </list>
+</routeList>
